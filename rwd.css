@@ -27,7 +27,7 @@ html, body {
     background: #36C3FF;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1240px) {
     .navbox {
         width: 100%;
     }
@@ -72,12 +72,13 @@ html, body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding-left: 25px;
 }
 .asideline {
     background: #E84900;
     width: 76%;
     height: 35px;
+    align-self: center;
+    margin-right: 5%;
 }
 /*//////////////*/
 .article {
@@ -112,9 +113,13 @@ html, body {
     background: #9d9d9d;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1240px) {
     .middle {
         width: 100%;
+    }
+    .article {
+        width: 73%;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width:375px) {
@@ -187,7 +192,7 @@ html, body {
     background: #038042;
     margin-left: 12.5%;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1240px) {
     .footerbox {
         width: 77%;
     }
